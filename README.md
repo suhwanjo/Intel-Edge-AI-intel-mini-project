@@ -1,0 +1,1 @@
+# Intel-Edge-AI-mini-project
