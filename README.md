@@ -32,7 +32,7 @@ pip install -r requirements.txt
 omz_downloader --list models_tts.lst
 omz_downloader --list models_ocr.lst
 ```
-
+Fill in your OpenAI API key into the OPENAI_API_KEY field in gpt_api.py.
 ## Steps to run
 
 ```shell
