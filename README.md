@@ -6,11 +6,11 @@
 
 ### 프로젝트 아키텍처
 
-* 프로젝트는 세 개의 주요 모듈로 구성됩니다:
+* 프로젝트는 세 개의 주요 모듈로 구성됩니다.
 
-    1. OCR 모듈: Tesseract OCR을 사용하여 이미지에서 텍스트를 추출합니다.
-    2. 텍스트 요약 모듈: Transformers 라이브러리의 BERT 모델을 사용하여 텍스트를 요약합니다.
-    3. TTS 모듈: Open Model Zoo의 ForwardTacotron 및 WaveRNN 모델을 사용하여 요약된 텍스트를 음성으로 변환합니다.
+    1. OCR 모듈: Intel Open Model ZOO의 text-spotting-0005 모델을 사용하여 이미지에서 텍스트를 추출합니다.
+    2. 텍스트 요약 모듈: OpenAI의 GPT3.5-turbo 모델을 사용하여 텍스트를 요약합니다.
+    3. TTS 모듈: Intel Open Model Zoo의 text-to-speech-en-0001 모델을 사용하여 요약된 텍스트를 음성으로 변환합니다.
 
 ### 다이어그램
 
