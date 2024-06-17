@@ -28,9 +28,9 @@ git clone https://github.com/suhwanjo/Intel-Edge-AI-mini-project.git
 cd ~/Intel-Edge-AI-mini-project/cd mini_project2
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-omz_downloader --list models_tts.lst
-omz_downloader --list models_ocr.lst
+(.venv) pip install -r requirements.txt
+(.venv) omz_downloader --list models_tts.lst
+(.venv) omz_downloader --list models_ocr.lst
 ```
 Fill in your OpenAI API key into the OPENAI_API_KEY field in gpt_api.py.
 ## Steps to run
